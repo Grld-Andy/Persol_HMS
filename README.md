@@ -12,13 +12,20 @@ This is a Hospital Management System built using DotNet MVC. It provides a compr
 ## Getting Started
 
 ### Prerequisites
-DotNet SDK must be installed.<br>
 Visual Studio or any other preferred code editor.
 
 ### Installation
-1. Clone the repository -> ```git clone https://github.com/yourusername/hospital-management.git```
+
+#### Using .NET CLI
+DotNet 6 SDK must be installed
+
+1. Clone the repository -> ```git clone https://github.com/Grld-Andy/Persol_HMS.git```
 2. Open the project in Visual Studio.
 3. Run the application -> ```dotnet watch run```.
+
+#### Using Docker
+1. Build the dockerfile with ```docker build -t persol_hms .```
+2. Run the image using ```docker run -p 8080:80 persol_hms```
 
 ## Usage
 1. Navigate to the application URL.
@@ -38,3 +45,11 @@ Visual Studio or any other preferred code editor.
 
 ## Contributing
 Contributions are welcome! If you have any ideas, improvements, or bug fixes, feel free to open an issue or create a pull request.
+
+
+### Auth Pages
+Login Page
+![Login Page](/wwwroot/images/login_page.png)
+
+Register Page
+![Register Page](/wwwroot/images/register_page.png)
